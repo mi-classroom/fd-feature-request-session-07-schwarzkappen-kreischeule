@@ -421,4 +421,28 @@ form input[type="checkbox"] {
     .navbar ul li:not(:last-child) {
         margin-right: var(--spacing-margin-small);
     }
+
+    .hero figure figcaption {
+        font-size: var(--xs);
+    }
+
+    .hero h1 {
+        color: var(--lightest);
+    }
+
+    .hero h2 {
+        font-size: var(--m);
+    }
+
+    .hero p {
+        font-size: var(--s);
+    }
+
+    .hero a {
+        font-size: var(--s);
+    }
+
+    .subheader {
+        font-size: var(--m);
+    }
 }
