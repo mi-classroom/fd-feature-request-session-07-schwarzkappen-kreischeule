@@ -137,63 +137,18 @@ section:not([class]) hr {
         margin: var(--spacing-margin-medium) 0 0;
     }
 
-    img {
-        width: 100%;
-    }
-
     figcaption {
         font-size: var(--xs);
-        margin: var(--spacing-margin-medium) 0 0;
-    }
-
-    ol {
-        padding: 0 0 0 var(--spacing-margin-medium);
-    }
-
-    main>article:not(.hero),
-    main>div,
-    main>section:not(.hero) {
-        max-width: var(--max-width-content);
-        padding: var(--m);
-    }
-
-    /* stylelint-disable-next-line no-descending-specificity */
-    article {
-        margin: 0 0 var(--article-margin-bottom);
-    }
-
-    article a {
-        display: inline-block;
-        margin: var(--spacing-margin-medium) 0 0;
-        color: var(--primary);
-        text-decoration: none;
     }
 
     section h2,
     article:not([class]) h2 {
-        color: var(--accent);
-        font-family: var(--font-family-serif);
         font-size: 1.0rem;
-        text-transform: uppercase;
     }
 
     article:not([class]) h3,
     section:not([class]) h3 {
-        font-family: var(--font-family-serif);
         font-size: 1rem;
-        font-weight: var(--font-weight-bold);
     }
 
-    article:not([class]) figure,
-    section:not([class]) figure {
-        width: 80%;
-        margin-left: 10%;
-    }
-
-    article:not([class]) hr,
-    section:not([class]) hr {
-        width: 50%;
-        border-top: 2px solid var(--accent-lighter);
-        margin-left: 25%;
-    }
 }
